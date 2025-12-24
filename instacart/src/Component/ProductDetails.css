@@ -1,0 +1,118 @@
+.product-details-page {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  background: #f5f5f5;
+}
+
+.product-box {
+  width: 100%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 40px;
+  display: flex;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+  gap: 80px;
+}
+
+.product-img {
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* RIGHT SIDE SECTION */
+.product-details-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.product-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #222;
+}
+
+.product-brand {
+  font-size: 18px;
+  color: #888;
+  font-style: italic;
+}
+
+/* PRICE HIGHLIGHT */
+.product-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #e63946;
+  background: rgba(230, 57, 70, 0.1);
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+/* RATING BADGE */
+.product-rat {
+  padding: 6px 12px;
+  background: #ffbf00;
+  color: #000;
+  display: inline-block;
+  width: fit-content;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* TAG STYLE */
+.product-tag {
+  font-size: 14px;
+  color: #555;
+  background: #dbeafe;
+  padding: 6px 12px;
+  border-radius: 20px;
+  width: fit-content;
+  font-weight: 500;
+}
+
+/* WARRANTY + RETURN INFO */
+.product-war, .product-return {
+  font-size: 16px;
+  color: #333;
+}
+
+/* DESCRIPTION */
+.product-desc {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #444;
+  line-height: 1.6;
+  background: #fafafa;
+  padding: 14px;
+  border-radius: 10px;
+  border-left: 5px solid #4a90e2;
+}
+
+/* OPTIONAL — ADD TO CART BUTTON */
+.add-cart-btn {
+  margin-top: 15px;
+  padding: 12px 22px;
+  background: linear-gradient(45deg, #9045ff, #9045ff);
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+}
+
+.add-cart-btn:hover {
+  background:linear-gradient(45deg, #d16ba5, #cf128d);
+}
